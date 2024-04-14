@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+
+    <div id="agregar-tarea">
+        <h2>Agregar Tarea</h2>
+        <input type="text" id="titulo-tarea" placeholder="Título de la tarea">
+        <textarea id="descripcion-tarea" placeholder="Descripción de la tarea"></textarea>
+        <button onclick="agregarTarea()">Agregar</button>
+    </div>
+
+    <ul id="lista-tareas"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
